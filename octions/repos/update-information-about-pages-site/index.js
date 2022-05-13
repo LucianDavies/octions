@@ -6,6 +6,7 @@ const request = require('../../../src/utils/request')
 const token = default_parse("token");
 const owner = default_parse("owner");
 const repo = default_parse("repo");
+const https_enforced = default_parse("https_enforced");
 const cname = default_parse("cname");
 const source = default_parse("source");
 const file_output = default_parse("file_output");
@@ -20,6 +21,7 @@ const inputs = {
   owner,
   repo,
   cname,
+  https_enforced,
   source,
   file_output,
   custom_outputs,
